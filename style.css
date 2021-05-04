@@ -18,3 +18,35 @@ html{
     
     
 }
+ul{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top:0px;
+    z-index: 10;
+    
+    
+    
+}
+a{
+text-decoration: none;
+    color: forestgreen;
+    text-shadow:2px 2px;
+    
+    
+    
+}
+.link{
+ display: inline;
+    padding-left:33px;
+    padding-right:25px;
+    font-size: 20px;
+    
+    
+}
+.link:hover{
+ font-size:25px   
+    
+    
+}
