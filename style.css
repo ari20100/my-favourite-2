@@ -1,52 +1,62 @@
-body {
-    text-align: centre;
+.container
+{
+    text-align: center;
+}
+#img1{
+  width: 100%;
+}
+.img2{
+    width: 250px;
+    height: 200px;
+}
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+      
+}
+.modal-content
+{
+  margin-top: 100px;
 }
 
-.menu {
-    list-style: none;
-    font-family: cursive;
-    float: right;
-    float: right;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    color: black;
+.img_modal
+  {
+    display: inline-block;
+  }
 
+.modal-body
+{
+    text-align: center
 }
-html{
- scroll-behavior: smooth;   
-    
-    
-}
-ul{
-    position: fixed;
-    background: white;
+#contact iframe
+{
     width: 100%;
-    margin-top: 0px;
-    top:0px;
-    z-index: 10;
-    
-    
-    
 }
-a{
-text-decoration: none;
-    color: forestgreen;
-    text-shadow:2px 2px;
-    
-    
-    
+.contact_1 h3
+{
+    display: inline;
 }
-.link{
- display: inline;
-    padding-left:33px;
-    padding-right:25px;
+.contact_1 a
+{
+    text-shadow: none;
+}
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 350px;
+       }
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
     font-size: 20px;
-    
-    
 }
-.link:hover{
- font-size:25px   
-    
-    
-}
+
+
+
